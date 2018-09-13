@@ -12,12 +12,6 @@ export const HEADERS = {
  Referer: `http://${API_URI}/`,
 }
 
-export const BASIC_INFO = {
- logo: '/admin/img/logo.png',
- name: '嗨GO后台管理',
- version: 'v1.0.0',
-}
-
 export const PATTERN = {
  phone: /^((((13[0-9])|(15[^4,\D])|(18[0-9])|(17[6-8])|(14[57]))\d{8})|((170[05789])\d{7}))$/,
 }
